@@ -21,6 +21,6 @@ class Entry (models.Model):
         verbose_name_plural = 'entries'
 
 
-        def __str__ (self):
-            """Devolve uma representação em string do modelo""" 
-            return self.text[:50] + '...'
+    def __str__ (self):
+        """Devolve uma representação em string do modelo""" 
+        return self.text[:50] + '...'

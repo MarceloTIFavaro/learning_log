@@ -1,2 +1,9 @@
-# Ambiente virtual
+# Ignora o ambiente virtual
 ll_env/
+
+# Ignora o banco local
+db.sqlite3
+
+# Ignora cache do Python
+__pycache__/
+*.pyc
